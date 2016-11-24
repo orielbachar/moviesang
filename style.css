@@ -1,0 +1,30 @@
+.navbar{
+  background-color:gray;
+  height: 25%;
+  width: 60%;
+  margin: 5%;
+  margin-left: 15%;
+}
+
+.img {
+  height: 330px;
+  width: 300px;
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+row:before {
+ display: table;
+ content: "";
+}
+
+.row:after {
+ display: table;
+ content: "";
+ clear: both;
+}
+
+.fa-times-circle-o{
+  float:right;
+}
